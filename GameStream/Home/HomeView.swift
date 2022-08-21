@@ -13,7 +13,7 @@ struct HomeView: View {
         case register
     }
     
-    @State var kind: HomeView.Kind = .login
+    @State var kind: HomeView.Kind = .register
     
     var body: some View {
         VStack {

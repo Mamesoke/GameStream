@@ -29,7 +29,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Image("screen1").resizable()
+        Image("screen2").resizable()
         ContentView()
     }
 }
